@@ -1,4 +1,4 @@
-class Backtrace
+class Annals
 
   attr_accessor :buffer, :max
 
