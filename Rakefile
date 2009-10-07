@@ -10,7 +10,7 @@ begin
     gem.email = "me@geemus.com"
     gem.homepage = "http://github.com/geemus/annals"
     gem.authors = ["geemus (Wesley Beary)"]
-    gem.rubyforge_project "annals"
+    gem.rubyforge_project = "annals"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 rescue LoadError
