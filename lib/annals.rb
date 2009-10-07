@@ -17,6 +17,12 @@ class Annals
     @buffer.map {|event| "#{event[:file]}:#{event[:line]} #{event[:method]}"}
   end
 
+  def puts
+    for line in lines
+      puts(line)
+    end
+  end
+
   def start
     @buffer = []
     @size   = 0

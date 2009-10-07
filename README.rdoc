@@ -15,6 +15,12 @@ Buffered ruby backtraces with start/stop.
   # capture trace for a block
   @annals.capture { tricksy_bits }
 
+  # print backtrace
+  @annals.puts
+
+  # get details for a particular line
+  @annals.buffer[42]
+
 == Copyright
 
 (The MIT License)
