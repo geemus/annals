@@ -1,3 +1,5 @@
+Note: I am no longer actively maintaining this, consider looking at {gestalt}[http://github.com/geemus/gestalt] instead or contact me if you would like to maintain the library.
+
 = annals
 
 Buffered ruby backtraces with start/stop.
